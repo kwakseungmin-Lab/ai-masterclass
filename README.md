@@ -35,29 +35,15 @@ game-reviewer     →  버그 리뷰 및 폴리시
 ```
 ai-masterclass/
 ├── crossy-road/
-│   ├── src/          # TypeScript 소스
-│   └── public/
+│   ├── index.html    # 단일 파일 게임 (519KB)
+│   └── report.md     # 제작 보고서
 └── metal-slug-tribute/
-    ├── index.html    # 단일 파일 게임
-    └── sprites/      # 스프라이트 · 사운드 에셋
+    ├── index.html    # 단일 파일 게임 (43MB, 에셋 인라인)
+    └── report.md     # 제작 보고서
 ```
 
 ---
 
 ## 실행 방법
 
-**Crossy Road**
-```bash
-cd crossy-road
-npm install
-npm run dev
-```
-
-**Metal Slug Tribute**
-```bash
-# 로컬 서버 필요 (스프라이트 로딩 때문에 file:// 불가)
-cd metal-slug-tribute
-npx serve .
-# 또는
-python3 -m http.server 8080
-```
+두 게임 모두 `index.html`을 브라우저에서 열면 바로 플레이 가능합니다.
