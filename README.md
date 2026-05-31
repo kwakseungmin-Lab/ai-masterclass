@@ -35,15 +35,19 @@ game-reviewer     →  버그 리뷰 및 폴리시
 ```
 ai-masterclass/
 ├── crossy-road/
-│   ├── index.html    # 단일 파일 게임 (519KB)
-│   └── report.md     # 제작 보고서
+│   ├── game/         # 완성된 빌드
+│   │   └── index.html    # 단일 파일 게임 (519KB)
+│   ├── src/          # TypeScript 소스
+│   └── report.md
 └── metal-slug-tribute/
-    ├── index.html    # 단일 파일 게임 (43MB, 에셋 인라인)
-    └── report.md     # 제작 보고서
+    ├── game/         # 완성된 빌드
+    │   └── index.html    # 단일 파일 게임 (43MB, 에셋 인라인)
+    ├── sprites/      # 원본 스프라이트 에셋
+    └── report.md
 ```
 
 ---
 
 ## 실행 방법
 
-두 게임 모두 `index.html`을 브라우저에서 열면 바로 플레이 가능합니다.
+두 게임 모두 `game/index.html`을 브라우저에서 열면 바로 플레이 가능합니다.
