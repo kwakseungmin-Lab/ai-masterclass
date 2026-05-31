@@ -65,12 +65,7 @@ render(accumulator / TICK_RATE); // 보간
 
 ## 작업 과정
 
-### 1. 리서치 (`research/`)
-- `crossy-research.md` — 원작 메카닉 전체 분석 (이동·사망·타이머·아트 스타일)
-- `references.md` — Three.js 튜토리얼·참고 코드 목록 (FreeCodeCamp, EvanBacon 클론 등)
-- `assets.md` — 사용 가능한 오픈소스 에셋 목록 (Kenney, itch.io CC0 등)
-
-### 2. 기술 선택
+### 1. 기술 선택
 - Three.js BoxGeometry로 별도 에셋 없이 복셀 스타일 구현
 - 물리 엔진 대신 그리드 기반 AABB 직접 구현 (단순성 우선)
 

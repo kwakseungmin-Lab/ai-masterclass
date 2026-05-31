@@ -36,7 +36,6 @@ game-reviewer     →  버그 리뷰 및 폴리시
 ai-masterclass/
 ├── crossy-road/
 │   ├── src/          # TypeScript 소스
-│   ├── research/     # 게임 리서치 문서
 │   └── public/
 └── metal-slug-tribute/
     ├── index.html    # 단일 파일 게임
